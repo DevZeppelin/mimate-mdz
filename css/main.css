@@ -1,0 +1,178 @@
+#link{
+    color: rgb(255, 255, 255);
+}
+
+#link:hover{
+    color: #567987  ;
+}
+
+.mail{
+    color: blueviolet;
+}
+
+.mail:hover{
+    color: crimson;
+}
+
+a{
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+a:hover{
+    color: #F4857F;
+}
+
+
+
+img {
+    max-width: 100%;    
+    }
+
+    .logo{
+    height: 400px;
+    }
+
+.quitar-float {
+    float: none;
+}
+
+.espacio-arriba {
+    margin-top: 40px;
+}
+
+.mediano{
+    font-size: 1.1em;
+}
+
+.grande{
+    font-size: 1.2em;
+}
+
+.muy-grande{
+    font-size: 2.5em;
+}
+
+.fuente-josefina{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fuente-pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.espacio-derecha{
+    margin-right: 1em;
+}
+
+.azul{
+    color: #07485C;
+}
+
+.rosa {
+    color: #F4857F;
+}
+
+.azul-claro{
+    color: #567987;
+}
+
+.se-rosa{
+    background-color: #F4857F ;
+}
+
+.se-azul{
+    background-color: #567987 ;
+}
+
+.padding-largo{
+    padding: 5px 10px;
+}
+
+/*Esto hace que el elementro a trabajar se situe en un mismo bloque alineado*/
+.inline-block{
+    float: none;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+/*Aqui le saco el puntito que trae la list x defecto a todos los elementos li*/
+.no-lista li{
+    list-style-type: none;
+}
+
+.no-lista {
+    margin: 0px;
+    padding: 0px;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+/*El vertical align solo funciona si existe el inline-block*/
+.vete-arriba{
+    vertical-align: top;
+}
+
+.retraso-1{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.retraso-2{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+/*Aqui vamos a trabajar con GRID*/
+
+.barra-principal{
+
+    background-color: #F4857F;
+    
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+.grid-3-ancho{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    justify-items: center;
+    padding: 5px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-items: center;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+.grid-galeria{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    justify-items: center;
+    padding: 5px;
+}
