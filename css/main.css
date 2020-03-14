@@ -218,16 +218,22 @@ img {
 @media (max-width: 800px) {
 
 .logo {
-    height: 800px;
-    margin-top: 340px;
+    height: 340px;
+    width: 340px;
+    margin-top: 6px;
 }
 
-.muy-grande h1 {
-    font-size: 6.5em;
+#ppal h1 {
+    font-size: 40px;
 }
 
-.h2, h2 {
-    font-size: 4rem;
+#ppal h2 {
+
+    font-size: 25px;
+}
+
+#ppal a {
+    font-size: 12px ;
 }
 
 
@@ -235,7 +241,21 @@ img {
 
 @media (max-width: 330px) {
 
-  
+    .logo {
+        height: 250px;
+        width: 250px;
+        margin-top: 6px;
+    }
+    
+    #ppal h1 {
+        font-size: 34px;
+    }
+    
+    #ppal h2 {
+    
+        font-size: 20px;
+    }
+    
     
 
 }
