@@ -213,3 +213,35 @@ img {
     width: 95%;
     margin-bottom:  60px;
 }
+
+
+@media (max-width: 800px) {
+
+.logo {
+    height: 800px;
+    margin-top: 340px;
+}
+
+.muy-grande h1 {
+    font-size: 6.5em;
+}
+
+.h2, h2 {
+    font-size: 4rem;
+}
+
+
+}
+
+@media (max-width: 330px) {
+
+  
+    
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+   
+
+}
