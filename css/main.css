@@ -150,6 +150,13 @@ img {
     
 }
 
+.grid-6 {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+
 .grid-5{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr 1fr 1fr;
@@ -196,6 +203,7 @@ img {
     margin: auto;
 }
 
+/*
 .grid-galeria{
     display: grid;
     grid-template-columns: 1.5fr 2.5fr 1.5fr;
@@ -204,6 +212,18 @@ img {
     padding: 6px;
     
 }
+*/
+
+.grid-galeria{
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr;
+    
+    justify-items: center;
+    
+    
+}
+
+
 
 .contenedor-contacto {
 
@@ -221,20 +241,7 @@ img {
     margin-bottom:  60px;
 }
 
-#sub-amor {
-    font-size: 30px;
-}
-
-#mates {
-    font-size: 3em;
-}
-
-#lista-menu {
-    font-size: 22px;
-
-
-}
-
+/*
 #whatsapp {
 
     position: fixed;
@@ -243,23 +250,59 @@ img {
     z-index: 200;
 
    }
+   */
+
+   
+#mates {
+    font-size: 54px;
+}
+
+#sub-amor {
+    font-size: 36px;
+}
+
+
+#catalogo h3 {
+    font-size: 44px;
+}
+
+
+#lista-menu {
+    font-size: 22px;
+
+}
+
+#catalogo img {
+    border: solid 3px black;
+}
+
+#columna-central img{
+
+    width: 100%;    
+}
+
+#columna-derecha img{
+
+    width: 100%;    
+}
+
 
 
 @media (max-width: 800px) {
 
 .logo {
-    height: 340px;
-    width: 340px;
+    height: 300px;
+    width: 300px;
     margin-top: 6px;
 }
 
 #ppal h1 {
-    font-size: 40px;
+    font-size: 34px;
 }
 
 #ppal h2 {
 
-    font-size: 25px;
+    font-size: 22px;
 }
 
  a {
@@ -269,6 +312,12 @@ img {
 h3 {
     font-size: 24px ;
 }
+
+h1 {
+    padding: 5px;
+}
+
+
 
 
 
@@ -284,12 +333,12 @@ h3 {
     }
     
     #ppal h1 {
-        font-size: 34px;
+        font-size: 25px;
     }
     
     #ppal h2 {
     
-        font-size: 20px;
+        font-size: 18px;
         }
 
     .muy-grande {
