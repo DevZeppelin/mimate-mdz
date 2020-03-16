@@ -150,6 +150,13 @@ img {
     
 }
 
+.grid-5{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 1fr 1fr;
+    justify-items: center;
+}    
+
+
 .grid-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -214,6 +221,29 @@ img {
     margin-bottom:  60px;
 }
 
+#sub-amor {
+    font-size: 30px;
+}
+
+#mates {
+    font-size: 3em;
+}
+
+#lista-menu {
+    font-size: 22px;
+
+
+}
+
+#whatsapp {
+
+    position: fixed;
+    top: 8%;
+    right: 4%;
+    z-index: 200;
+
+   }
+
 
 @media (max-width: 800px) {
 
@@ -232,9 +262,15 @@ img {
     font-size: 25px;
 }
 
-#ppal a {
+ a {
     font-size: 12px ;
 }
+
+h3 {
+    font-size: 24px ;
+}
+
+
 
 
 }
@@ -254,6 +290,15 @@ img {
     #ppal h2 {
     
         font-size: 20px;
+        }
+
+    .muy-grande {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+
     }
     
     
@@ -262,6 +307,14 @@ img {
 
 @media (min-width: 600px) and (max-width: 800px) {
 
-   
+    .logo {
+        height: 550px;
+        width: 550px;
+        margin-top: 30px;
+    }
+
+    a {
+        font-size: 20px ;
+    }
 
 }
