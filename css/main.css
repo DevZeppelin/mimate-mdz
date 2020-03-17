@@ -172,7 +172,7 @@ img {
 
 .grid-3-ancho{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     justify-items: center;
     padding: 5px;
 }
@@ -223,9 +223,21 @@ img {
     
 }
 
+/*OTRAS FOTOS*/
+
+.foto-giovy-ana img {
+    width: 500px; 
+    height: 500px;
+}
+
+.fotos-galeria-gif img {
+    width: 350px;
+    height: 500px; 
+}
 
 
-.contenedor-contacto {
+
+.contenedor-contacto .foto-giovy-ana {
 
     display: flex;
     flex-wrap: wrap;    
@@ -318,7 +330,15 @@ h1 {
 }
 
 
+.foto-giovy-ana img {
+    width: 500px; 
+    height: 238px;
+}
 
+.fotos-galeria-gif img {
+    width: 350px;
+    height: 193px; 
+}
 
 
 
