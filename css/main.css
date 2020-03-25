@@ -28,11 +28,9 @@ a:hover{
 
 
 
-img {
-    max-width: 100%;    
-    }
+/*img {    max-width: 100%;        }*/
 
-    .logo{
+.logo{
     height: 400px;
     }
 
@@ -45,7 +43,7 @@ img {
 }
 
 .mediano{
-    font-size: 1.1em;
+    font-size: 24px;
 }
 
 .grande{
@@ -157,6 +155,13 @@ img {
 
 }
 
+.grid-8 {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+
 .grid-5{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr 1fr 1fr;
@@ -180,7 +185,7 @@ img {
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 0.5em;
     justify-items: center;
 }
 
@@ -203,16 +208,16 @@ img {
     margin: auto;
 }
 
-/*
-.grid-galeria{
+
+/*.grid-galeria{
     display: grid;
     grid-template-columns: 1.5fr 2.5fr 1.5fr;
     gap: 1em;
     justify-items: center;
     padding: 6px;
     
-}
-*/
+}*/
+
 
 .grid-galeria{
     display: grid;
@@ -226,13 +231,17 @@ img {
 /*OTRAS FOTOS*/
 
 .foto-giovy-ana img {
-    width: 500px; 
-    height: 500px;
+    width: 300px; 
+    height: 400px;
 }
 
 .fotos-galeria-gif img {
-    width: 350px;
-    height: 500px; 
+    width: 250px;
+    height: 300px; 
+}
+
+.fotos-galeria img {
+    max-width: 98%;
 }
 
 
@@ -274,18 +283,22 @@ img {
 }
 
 
-#catalogo h3 {
+/*#catalogo h3 {
     font-size: 44px;
-}
+}*/
 
 
-#lista-menu {
+.lista-menu-big {
     font-size: 22px;
 
 }
 
 #catalogo img {
     border: solid 3px black;
+}
+
+#columna-izquierda img{
+    width: 100%;    
 }
 
 #columna-central img{
@@ -297,6 +310,207 @@ img {
 
     width: 100%;    
 }
+
+
+.imagen-fija{
+
+    background: url(portada.jpg);
+    
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-attachment: fixed;
+    padding-bottom: 60px;
+    background-position: center;
+}
+
+.imagen-fija2{
+
+    background: url(portada2.jpg);
+    
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+    background-position: center;
+}
+
+.imagen-fija3{
+
+    background: url(portada3.jpg);
+    
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+    background-position: center;
+}
+
+.imagen-fija4{
+
+    background: url(portada4.jpg);
+    
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+    background-position: center;
+}
+
+.contenedor {
+    
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*........GENERAL.............*/
+
+#presentacion img {
+
+    width: 467px;
+    height: 484px;
+}
+
+.contenedor {
+    padding-bottom: 36px;
+}
+
+/*..........CURAR...............*/
+
+#curar .contenedor-curar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#curar .texto {
+    
+    width: 42%;
+    text-align: justify;
+}
+
+#curar h1 {
+    padding-bottom: 36px;
+}
+
+
+/*...................PRESENTACION............*/
+
+
+#presentacion .contenedor-presentacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentacion .texto {
+    
+    width: 42%;
+    text-align: justify;
+}
+
+#presentacion h1 {
+    padding-bottom: 36px;
+}
+
+
+/*...................MADERA............*/
+
+#madera img {
+
+    width: 560px;
+    height: 400px;
+}
+
+
+#madera .algarrobo {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 36px;
+    
+}
+
+#madera .canela {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 36px;
+}
+
+#madera .texto {
+    
+    width: 36%;
+    text-align: justify;
+}
+
+#madera h1 {
+    padding-bottom: 36px;
+}
+
+
+/*......................CONTACTO.................*/
+
+
+#contacto .contenedor-contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto .texto {
+    
+    width: 42%;
+    text-align: justify;
+}
+
+#contacto h1 {
+    padding-bottom: 36px;
+}
+
+
+/*.........................FOOTER..................*/
+
+
+footer {
+
+    background: rgb(226, 104, 98);
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+   }
+
+   footer .contenedor {
+
+    display: flex;
+    justify-content: center;
+    /*este por defecto vienen en raw, por eso se pone uno al lado del otro. si lo pongo en columna pone uno abajo del otro*/
+    flex-direction: column;
+   }
+
+   footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    /*en la rotacion necesito definir primero el grado por defecto, luego en el :hover cuanto quiero que rote, y luego la transition que es el tiempo en el defect y en el hover. deg es grados en ingles*/
+    transition: 0.4s;
+
+   }
+
+   footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+
+   }
+
+   footer p {
+       color: #fff;
+       margin-top: 40px;
+   }
+
 
 
 
@@ -331,7 +545,7 @@ h1 {
 
 
 .foto-giovy-ana img {
-    width: 500px; 
+    width: 180px; 
     height: 238px;
 }
 
@@ -339,6 +553,54 @@ h1 {
     width: 350px;
     height: 193px; 
 }
+
+.contenedor-curar, .contenedor-presentacion, .contenedor-madera, .contenedor-contacto, .algarrobo, .canela {
+    flex-direction: column;
+
+}
+
+#curar img {
+    width: 100%;
+}
+
+#curar .texto {    
+    width: 90%;
+    text-align: justify;
+}
+
+#presentacion img {
+    width: 100%;
+    height: 350px;
+}
+
+#presentacion .texto {    
+    width: 90%;
+    text-align: justify;
+}
+
+#madera img {
+    width: 100%;
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+#madera .texto {    
+    width: 90%;
+    text-align: justify;
+}
+
+
+#contacto .texto {    
+    width: 90%;
+    text-align: justify;
+}
+
+.mediano{
+    font-size: 16px;
+}
+
+
+
 
 
 
