@@ -556,6 +556,10 @@ footer {
 
    
 
+    .espacio-arriba {
+        margin-top: 6px;
+    }
+
 .logo {
     height: 300px;
     width: 300px;
@@ -582,7 +586,7 @@ h3 {
 h1 {
     padding: 5px;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 header h2 {
@@ -666,7 +670,7 @@ header h2 {
     }
     
     header .espacio-arriba {
-        margin-top: 18px;
+        margin-top: 4px;
     }
 
     #ppal h2 {
