@@ -1,33 +1,55 @@
+/*
+PALETA DE COLORES
+#f6ea8c
+#f26d5b
+#c03546
+#492540
+
+*/
+body {
+    background-color: #f6ea8c ;
+}
+
+h1, h2, h3 {
+    color: #492540;
+}
+
+.imagen:hover, .map:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px 10px #f26d5b;
+}
+
+
 .link{
-    color: rgb(255, 255, 255);
+    color: #f6ea8c;
 }
 
 .link:hover{
-    color: #567987  ;
+    color: #492540  ;
 }
 
 .mail{
-    color: blueviolet;
+    color: #c03546;
 }
 
 .mail:hover{
-    color: crimson;
+    color: #492540;
 }
 
 a{
     font-size: 1.2em;
-    color: white;
+    color: #f6ea8c;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     
 }
 
 a:hover{
-    color: #F4857F;
+    color: #492540;
 }
 
 a:visited {
-    color: #fff;
+    color: #f6ea8c;
 }
 
 
@@ -76,23 +98,23 @@ header h2 {
 }
 
 .azul{
-    color: #07485C;
+    color: #492540;
 }
 
 .rosa {
-    color: #F4857F;
+    color: #f26d5b;
 }
 
 .azul-claro{
-    color: #567987;
+    color: #c03546;
 }
 
 .se-rosa{
-    background-color: #F4857F ;
+    background-color: #f26d5b ;
 }
 
 .se-azul{
-    background-color: #567987 ;
+    background-color: #492540 ;
 }
 
 .padding-largo{
@@ -117,7 +139,7 @@ header h2 {
 }
 
 .letra-blanca{
-    color: white;
+    color: #f6ea8c;
 }
 
 /*El vertical align solo funciona si existe el inline-block*/
@@ -145,7 +167,7 @@ header h2 {
 
 .barra-principal{
 
-    background-color: #F4857F;
+    background-color: #f26d5b;
     max-width: 1280px;
     
     justify-items: center;
@@ -308,7 +330,7 @@ header h2 {
 }
 
 #catalogo img {
-    border: solid 3px black;
+    border: solid 3px #492540;
 }
 
 #columna-izquierda img{
@@ -439,7 +461,7 @@ header h2 {
 
 #madera img {
 
-    width: 560px;
+    width: 360px;
     height: 300px;
 }
 
@@ -499,7 +521,7 @@ header h2 {
 
 footer {
 
-    background: rgb(226, 104, 98);
+    background: #f26d5b;
     padding: 40px 0;
     text-align: center;
     margin-top: 40px;
@@ -528,7 +550,7 @@ footer {
    }
 
    footer p {
-       color: #fff;
+       color: #f6ea8c;
        margin-top: 40px;
    }
 
@@ -536,8 +558,8 @@ footer {
 
    .boton {
     font-size: 16px;
-    color: #fff;
-    background: #F4857F;
+    color: #f6ea8c;
+    background: #f26d5b;
     padding: 4px 13px;
     text-align: center;
     width: 172px;
