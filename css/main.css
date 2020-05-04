@@ -6,6 +6,11 @@ PALETA DE COLORES
 #492540
 
 */
+
+p {
+    margin-top: 30px;
+}
+
 body {
     background-color: #f6ea8c ;
 }
@@ -642,7 +647,7 @@ header h2 {
 
 #presentacion img {
     width: 100%;
-    height: 350px;
+    height: 310px;
 }
 
 #presentacion .texto {    
@@ -653,7 +658,7 @@ header h2 {
 #madera img {
     width: 100%;
     height: 270px;
-    padding-bottom: 20px;
+    
 }
 
 #madera .texto {    
